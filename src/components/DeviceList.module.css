@@ -1,0 +1,64 @@
+.deviceList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+.deviceList li {
+  position: relative;
+  padding: 0 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.deviceList li:last-child {
+  border-bottom: none;
+}
+
+.deviceList li p {
+  margin: 1rem 0;
+}
+
+.deviceItemSystemName {
+  font-weight: bold;
+}
+.deviceItemDeviceType {
+  color: darkblue;
+}
+.deviceItemCapacity {
+}
+
+.deviceControls {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.deviceControls svg {
+  margin: 0 0.5rem;
+  color: rgb(64, 64, 64);
+}
+
+.pagination {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+}
+
+.pagination a {
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: 1px solid #ccc;
+}
+
+.active a {
+  background-color: #0070f3;
+  color: #fff;
+}
+.disabled a {
+  color: #999;
+}
