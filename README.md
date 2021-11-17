@@ -8,11 +8,7 @@ This application is built using ReactJS. Each screen is divided into separate co
 ### Styling
 CSS modules are used for styling to reduce side effects and conflicts. All styles are custom written.
 
-### React Router
-React router v6 is used to create the following routes:
-
-* /  ==> (Home, displays list of all devices)
-
+### Modals
 In the first implementation routes were used instead of modals for adding, editing and deleting confirmation. That was to take advantage of browser's built-in back/forward functionality to change views. The current implementation makes use of modals and displays devices in a paginated table.
 
 ### Other npm modules
